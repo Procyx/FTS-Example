@@ -38,7 +38,7 @@ Some will even need research to solve the many sub-problems (or false tracks).
 
 ## Example
 
-A full problem **creation/resolution** is given in this ~github repository~ to give you an idea of how it looks/works.
+A full problem **creation/resolution** is given in this github repository to give you an idea of how it looks/works.
 For more informations about **The Tree** (A level *Pentagon* problem) you can read the TREE.md file.
 
 Good luck, and have fun!
