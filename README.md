@@ -1,83 +1,37 @@
-Matrices Calculator !
-===================
+
+# Find The Solution
 
 
-Here is a **Matrice Calculator** project built in C99 (*With standard libraries*).
-It presents itself as a dialogue between you & the program:
+**Find the solution** aka **FTS** is a website currently in development which provides a bunch of problems.
+The ~solution of a problem is a code~ that you have to find by searching in the inputs. This code can be a *sentence, randomly generated characters, of any size, etc...*
+All problems are structured in the say way, they are given with **5 informations**:
+An *ID*, a *Name*, a *Level*, a list of *Skills required*, and some « *Inputs* ».
 
-    Welcome in Matrices Calculator!
-    	
-    What do you want to do?
-		- A: Adding two matrices
-		- B: Subtracting two matrices
-		- C: Multiplying a matrix by a number
-		- D: Multiplying two matrices
-		- E: Exit
+* **Name**/**ID** allows you to share and find a problem.
+* The **Level** is given as a shape. The difficulty of the problem increase with the number of points in the shape. For example, level *Square* is easier than level *Hexagon*.
+So, the easiest level is **Point**, and the hardest is **Circle**.
+* The **Skills required** allows you to know if you can resolve this problem. ~Some problems needs in-depth knowledge on very targeted areas~ that’s why it is important to check this list before starting a problem. (*Be smart! This list can give you some paths*)
+* The **Inputs** are the starting points of  the problem. You have to find the code with these Inputs, *nothing more, nothing less*. An Input can be ~anything~: *Image, Video, Text, File, Raw Data, Music...*
 
-As you can see, it allows you to:
+## Levels
 
- - *Add/Subtract two matrices*
- - *Multiply one matrix by a number*
- - *Multiply two matrices*
+Here are the different *levels*, with there **characteristics**:
 
-----------
-
-
-How to use it?
--------------
-
-This program works with *dialogues*. For example, if you want to add two matrices, it will ask you the first **matrix size**:
-
-    Operation: A+B:
-    How many lines for 'A' ? (From 1 to 99) 
-    2
-    
-    How many columns for 'A' ? (From 1 to 99) 
-    2
-
-Then, it will ask you the **first matrix values**, and print it in the console:
-
-    What values for 'A' ? (From -200 to 200)
-    -> Use spaces to separate values (Ex: '23 -45 1').
-    1 0 1 0
-    
-    'A' is a 2x2 matrix:
-	| 1 0 |
-	| 1 0 |
-When *adding or subtracting two matrices*, the program know that the two matrices has the same size, so it will **directly** ask you for **the second matrix values** (Same when multiplying two matrices, the columns count of A will be the lines count of B).
-
-    What values for 'B' ? (From -200 to 200)
-    -> Use spaces to separate values (Ex: '23 -45 1').
-    0 1 1 0
-    
-    'B' is a 2x2 matrix:
-    	| 0 1 |
-    	| 1 0 |
-
-Finally, it will **print the result** and *go back to the main menu* (described previously):
-
-    A+B result:
-    	| 1 1 |
-    	| 2 0 |
+* **Point** - Easy problems, no traps, no false tracks, accessible to all. Need no more than 1 or 2 steps to be resolved.
+* **Line** - The problems and the concepts stay easy, but can need some very basic knowledge.
+* **Triangle** - Problems slightly more difficult, with some false tracks (depthless). The concepts used stay fairly basic, although slightly more complex.
+* **Square** - Problems requiring more steps and more time to be solved. False tracks can be more elaborated. However the concepts used stay the same.
+* **Hexagon** - From the "Hexagon" level, the problems become more complicated. They ask for logical reasoning, as well as good ideas to find the right track.
+* **Pentagon** - Problems as complex as "Hexagon", but which require more in-depth knowledge in certain areas, usually mathematics (whose level will be specified in the skills required) and programming.
+*To solve these problems you will have to be able to apply your knowledge to advance* (For example, create a program to convert an input to another type of data).
+* **X-agon** - The difficulty increase with the number of points in the shape. Difficulties can be in any aspect of the problem (number of steps, traps, knowledge ...).
+* **Circle** - This is the highest level of "Find The Solution". Solving these problems will require time, logical reasoning, much thought, advanced IT expertise, and in-depth knowledge across multiple domains.
+Some will even need research to solve the many sub-problems (or false tracks).
 
 
-----------
+## Example
 
-What about the code?
--------------
+A full problem **creation/resolution** is given in this ~github repository~ to give you an idea of how it looks/works.
+For more informations about **The Tree** (A level *Pentagon* problem) you can read the TREE.md file.
 
-The code of this project is in the **Matrices** folder in this repository. In this folder you will find:
-
- - `main.c` / `.h`: This contains *core functions*, like `main_menu(void)` and **all the mathematics functions used for matrices calculations**.
- 
- - `io.c` / `.h`: This contains functions used to execute an action that need an user input (For example: `in_matrix(char)` use `in_lines_count(char)` to handle lines count of the input matrix). *These functions also call the others functions of the program to get and print the result.*
- 
- - `utils.c` / `map.h`: This contains simple and useful functions like `println(char*)` for example.
-
-
-----------
-
-License
--------------
-
-This code is under the **GNU General Public License v3.0** you can *use/edit* this code *without ask me* and *without quote me* if you want (More informations in `License` file).
+~Good luck, and have fun!~
