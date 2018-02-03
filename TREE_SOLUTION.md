@@ -15,7 +15,7 @@ So, one group could be the color of one pixel. There are *65536 lines/groups* gi
 Using the java language, we make a program that converts « **code.txt** » file into a *256x256 image*. (*Any language can be used*):
 
 ```java    
-// Reader
+    // Reader
     final BufferedReader reader = new BufferedReader(new FileReader(new File(System.getProperty("user.home") + "/Desktop/code.txt")));
     // Result image
     final BufferedImage result = new BufferedImage(256, 256, BufferedImage.TYPE_INT_ARGB);
@@ -63,6 +63,7 @@ The result seems to **confirm our track**, the *result is a picture of tree* tha
 But are these images *really identical*?
 Using another program, we make sure that the 2 images are **identical**:
 
+```java
     // Tree.png
     final BufferedImage i1 = ImageIO.read(new File(System.getProperty("user.home") + "/Desktop/tree.png"));
     // Image from txt
@@ -88,6 +89,7 @@ Using another program, we make sure that the 2 images are **identical**:
         }
     
     System.out.println("Images are equals!");
+```
 
 And, **they are not**! 
 *Program Output:* `Images are not equals!`
@@ -95,6 +97,7 @@ And, **they are not**!
 So, now we could try to represent this difference (**visually**).
 We create a program to *generate another image (**delta.png**) on which we only write pixels which are not identical* in both images **tree.png** and **image_from_txt.png**.
 
+```java
     // Tree.png
     final BufferedImage i1 = ImageIO.read(new File(System.getProperty("user.home") + "/Desktop/tree.png"));
     // Image form text
@@ -121,7 +124,7 @@ We create a program to *generate another image (**delta.png**) on which we only 
     // Output
     final File out = new File(System.getProperty("user.home") + "/Desktop/delta.png");
     ImageIO.write(delta, "png", out);
-
+```
 
   <img align="right" width="256" height="256" src="https://image.noelshack.com/fichiers/2018/05/6/1517674458-delta.png">
   
