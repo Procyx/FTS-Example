@@ -81,5 +81,3 @@ License
 -------------
 
 This code is under the **GNU General Public License v3.0** you can *use/edit* this code *without ask me* and *without quote me* if you want (More informations in `License` file).
-
-***Understand what you do allows you to progress.***
