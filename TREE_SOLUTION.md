@@ -132,4 +132,4 @@ Here is the code: <b>3%67aa8d</b></center>
 
 <br><br>
 **Hope you enjoyed this example problem! 
-If you want others, Find The Solution website will be on soon!**
+<br>If you want others, Find The Solution website will be on soon!**
