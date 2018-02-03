@@ -55,8 +55,8 @@ The result seems to **confirm our track**, the *result is a picture of tree* tha
 <img align="left" width="256" height="256" src="https://image.noelshack.com/fichiers/2018/05/6/1517670874-tree.png">
 <img align="right" width="256" height="256" src="https://image.noelshack.com/fichiers/2018/05/6/1517671308-image-from-txt.png">
 
-<br><center> <-- <b>tree.png</b> (Input 1)</center>
-<br><br><center><b>image_from_txt.png</b> -><br>(Program Output)</center>
+<br><center>  <--  <b>tree.png</b> (Input 1)</center>
+<br><br><center><b> image_from_txt.png</b>  -><br>(Program Output)</center>
 <br><br><br><br><br><br>
 
 But are these images *really identical*?
