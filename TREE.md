@@ -20,6 +20,6 @@ If you don't know what is a **FTS Problem**, please read *README.md*.
 
 
 - **Inputs are in the 'Inputs' package!**
-- *If you gave up, or if you are just curious, the solution is explained in '*TREE_SOLUTION.md*' and the needed programs are in the '**Solution**' package.*
+- *If you gave up, or if you are just curious, the solution is explaned in '*TREE_SOLUTION.md*' and the needed programs are in the '**Solution**' package.*
 - *If you are very curious, you can find how i created this problem by readind '*TREE_CREATION.md*'. As well, all the needed programs are in the '**Creation**' package.*
 
