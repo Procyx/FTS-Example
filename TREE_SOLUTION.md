@@ -3,14 +3,14 @@ Input « code.txt » is a **sequence of numbers**, given in groups of 3.
 <br>Given this amount of data, it seems unlikely that we should treat them directly.
  
 We can recognize a group of 3 digits as **a color**, because the pattern seems very similar to *RGB*.
-But, the **values are not in a valid range** ([0;1] or [0;255]). 
-The highest value we can find is ‘510’, and the smallest is ‘0’.
-However, we can see that *each number* of this file is a *multiple of 2*. Also, **510** = **2** * **255**. 
-It seems fair to think that these numbers are ***Red*/*Green*/*Blue* values** of a pixel, multiplied by **2**.
+<br>But, the **values are not in a valid range** ([0;1] or [0;255]). 
+<br>The highest value we can find is ‘510’, and the smallest is ‘0’.
+<br>However, we can see that *each number* of this file is a *multiple of 2*. Also, **510** = **2** * **255**. 
+<br>It seems fair to think that these numbers are ***Red*/*Green*/*Blue* values** of a pixel, multiplied by **2**.
 
 So, one group could be the color of one pixel. There are *65536 lines/groups* given in this file -> **65536 pixels**.
-We notice that **65536** = **256** * **256**. 256x256 are common dimensions for low-quality images.
-Moreover, the second Input (« *tree.png* ») is an image with *256x256 dimensions*, and *the required skills indicate the notions of image and pixels*.
+<br>We notice that **65536** = **256** * **256**. 256x256 are common dimensions for low-quality images.
+<br>Moreover, the second Input (« *tree.png* ») is an image with *256x256 dimensions*, and *the required skills indicate the <br>notions of image and pixels*.
  
 Using the java language, we make a program that converts « **code.txt** » file into a *256x256 image*. (*Any language can be used*):
 
