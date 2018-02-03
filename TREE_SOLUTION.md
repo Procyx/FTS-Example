@@ -1,6 +1,6 @@
 ﻿# The Tree - Solution
 Input « code.txt » is a **sequence of numbers**, given in groups of 3.
-Given this amount of data, it seems unlikely that we should treat them directly.
+<br>Given this amount of data, it seems unlikely that we should treat them directly.
  
 We can recognize a group of 3 digits as **a color**, because the pattern seems very similar to *RGB*.
 But, the **values are not in a valid range** ([0;1] or [0;255]). 
