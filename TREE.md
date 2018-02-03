@@ -6,7 +6,7 @@ The Tree #FTS-1
 
 **The Tree** is an example problem of what you can find in **FTS**.
 If you don't know what is a **FTS Problem**, please read *README.md*.
-So, here are the problem informations:
+<br>So, here are the problem informations:
 
 **Name**: `The_Tree`
 **ID**: `#1`
