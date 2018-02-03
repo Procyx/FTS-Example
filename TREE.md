@@ -9,9 +9,9 @@ If you don't know what is a **FTS Problem**, please read *README.md*.
 <br>So, here are the problem informations:
 
 **Name**: `The_Tree`
-**ID**: `#1`
-**Level**: `5 (Pentagon)`
-**Skills required**:
+<br>**ID**: `#1`
+<br>**Level**: `5 (Pentagon)`
+<br>**Skills required**:
 
     - Know how works a numeric image, and how to edit it (Pixels, Size, Colors...)
     - Logical reasoning
