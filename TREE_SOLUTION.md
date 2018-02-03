@@ -60,7 +60,7 @@ The result seems to **confirm our track**, the *result is a picture of tree* tha
 <br><br><br><br><br><br>
 
 But are these images *really identical*?
-Using another program, we make sure that the 2 images are **identical**:
+<br>Using another program, we make sure that the 2 images are **identical**:
 
 ```java
     // Tree.png
