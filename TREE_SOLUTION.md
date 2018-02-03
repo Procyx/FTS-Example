@@ -57,8 +57,7 @@ The result seems to **confirm our track**, the *result is a picture of tree* tha
 
 <br><center> <-- <b>tree.png</b> (Input 1)</center>
 <br><br><center><b>image_from_txt.png</b> -><br>(Program Output)</center>
-
-----------
+<br><br><br><br>
 
 But are these images *really identical*?
 Using another program, we make sure that the 2 images are **identical**:
