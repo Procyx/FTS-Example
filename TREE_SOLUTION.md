@@ -14,7 +14,8 @@ So, one group could be the color of one pixel. There are *65536 lines/groups* gi
  
 Using the java language, we make a program that converts « **code.txt** » file into a *256x256 image*. (*Any language can be used*):
 
-    // Reader
+```java    
+// Reader
     final BufferedReader reader = new BufferedReader(new FileReader(new File(System.getProperty("user.home") + "/Desktop/code.txt")));
     // Result image
     final BufferedImage result = new BufferedImage(256, 256, BufferedImage.TYPE_INT_ARGB);
@@ -46,6 +47,7 @@ Using the java language, we make a program that converts « **code.txt** » file
     // Output
     final File out = new File(System.getProperty("user.home") + "/Desktop/image_from_txt.png");
     ImageIO.write(result, "png", out);
+```
 
 The result seems to **confirm our track**, the *result is a picture of tree* that seems identical to the "*tree.png*" image:
 
