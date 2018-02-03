@@ -11,7 +11,7 @@ An *ID*, a *Name*, a *Level*, a list of *Skills required*, and some « *Inputs* 
 * The **Level** is given as a shape. The difficulty of the problem increase with the number of points in the shape. For example, level *Square* is easier than level *Hexagon*.
 So, the easiest level is **Point**, and the hardest is **Circle**.
 * The **Skills required** allows you to know if you can resolve this problem. Some problems needs in-depth knowledge on very targeted areas that’s why it is important to check this list before starting a problem. (*Be smart! This list can give you some paths*)
-* The **Inputs** are the starting points of  the problem. You have to find the code with these Inputs, *nothing more, nothing less*. An Input can be ~anything~: *Image, Video, Text, File, Raw Data, Music...*
+* The **Inputs** are the starting points of  the problem. You have to find the code with these Inputs, *nothing more, nothing less*. An Input can be anything: *Image, Video, Text, File, Raw Data, Music...*
 
 ## Levels
 
