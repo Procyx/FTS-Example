@@ -3,7 +3,7 @@
 
 
 **Find the solution** aka **FTS** is a website currently in development which provides a bunch of problems.
-The ~solution of a problem is a code~ that you have to find by searching in the inputs. This code can be a *sentence, randomly generated characters, of any size, etc...*
+The solution of a problem is a code that you have to find by searching in the inputs. This code can be a *sentence, randomly generated characters, of any size, etc...*
 All problems are structured in the say way, they are given with **5 informations**:
 An *ID*, a *Name*, a *Level*, a list of *Skills required*, and some « *Inputs* ».
 
@@ -34,4 +34,4 @@ Some will even need research to solve the many sub-problems (or false tracks).
 A full problem **creation/resolution** is given in this ~github repository~ to give you an idea of how it looks/works.
 For more informations about **The Tree** (A level *Pentagon* problem) you can read the TREE.md file.
 
-~Good luck, and have fun!~
+Good luck, and have fun!
