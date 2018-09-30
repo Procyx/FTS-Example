@@ -30,7 +30,7 @@ public class DeltaImage {
 
                 final boolean same = red1 == red2 && green1 == green2 && blue1 == blue2;
 
-                // Write pixel is 'result' is the pixel is not the same
+                // Write pixel if 'result' is the pixel is not the same
                 if(!same)
                     delta.setRGB(x, y, rgb1);
             }
